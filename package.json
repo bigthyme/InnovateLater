@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "express": "3.4.x",
-    "dropbox": "0.10.x"
+    "dropbox": "0.10.x",
+    "request": "2.27.x"
   },
   "devDependencies": {
     "supervisor": "0.5.x"
