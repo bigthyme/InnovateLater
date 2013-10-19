@@ -1,0 +1,25 @@
+{
+  "name": "InnovateLater",
+  "version": "0.0.0",
+  "description": "Angel Hack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --debug index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigthyme/InnovateLater.git"
+  },
+  "dependencies": {
+    "express": "3.4.x",
+    "dropbox": "0.10.x"
+  },
+  "devDependencies": {
+    "supervisor": "0.5.x"
+  },
+  "author": "Anthony Singhavong",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/bigthyme/InnovateLater/issues"
+  }
+}
