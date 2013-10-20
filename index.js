@@ -1,5 +1,5 @@
 var express = require('express')
-  , PORT = 8001
+  , PORT = process.env.PORT || 8001
   , routes = require('./lib/routes.js');
 
 var app = express();
