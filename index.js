@@ -6,8 +6,8 @@ var app = express();
 app.use(express.cookieParser());
 
 app.get('/', routes.logIn);
-app.get('/callback', routes.initCallback);
-app.get('/User/dropbox/new', routes.createNewDBUser);
+app.get('/callback', routes.initCallBack);
+// app.get('/User/save', routes.addUserToDB);
 
 console.log('Server is listening on ', PORT)
 app.listen(PORT);

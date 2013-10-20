@@ -1,4 +1,4 @@
-var crypto = require('crypto'),
+var crypto = require('crypto')
 	,	express = require('express')
 	,	request = require('request')
 	,	url = require('url')
